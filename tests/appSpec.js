@@ -99,6 +99,6 @@ describe("Building player blocks", function () {
     </div>`;
     expectedFragment = expectedFragment.replace(/\s/g, "");
 
-    expect(fragment).toBe(expectedFragment);
+    expect(fragment).toBe(expectedFragment);  
   })
 });
